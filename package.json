@@ -1,0 +1,24 @@
+{
+  "name": "random-data-gen",
+  "version": "1.0.0",
+  "description": "Random data generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaskaran-cloud/random-data-gen.git"
+  },
+  "author": "jaskaran.cloud@gmail.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jaskaran-cloud/random-data-gen/issues"
+  },
+  "homepage": "https://github.com/jaskaran-cloud/random-data-gen#readme",
+  "dependencies": {
+    "express": "4.16.2",
+    "uuid": "3.1.0"
+  }
+}
